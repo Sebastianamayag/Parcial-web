@@ -1,0 +1,71 @@
+:root {
+    --negro: #000000;
+    --negro-suave: #323132;
+    --negro-medio: #2c2c2c;
+    --negro-medio-suave: #272727;
+    --fondo: #ffffff;
+}
+
+@font-face {
+    font-family: "montserrat-medium";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat-bold";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat-regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+header {
+    font-family: "montserrat-medium";
+}
+
+footer .text {
+    color: var(--negro-medio-suave);
+    font-size: 12px;
+    font-family: "monserrat-regular";
+}
+
+footer .arrow {
+    color: var(--negro-suave);
+    font-size: 29.76px;
+}
+
+section .principal {
+    color: var(--negro-medio-suave);
+    font-size: 25.6px;
+    font-family: "monserrat-bold";
+}
+
+section .number-principal {
+    color: var(--negro-medio-suave);
+    font-size: 190.68px;
+    font-family: "monserrat-regular";
+}
+
+.navvar {
+    color: var(--negro-medio);
+    font-size: 18.76px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    margin: 0 auto;
+}
