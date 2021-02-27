@@ -33,6 +33,9 @@ body {
 
 header {
     font-family: "montserrat-medium";
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
 
 footer .text {
@@ -44,6 +47,10 @@ footer .text {
 footer .arrow {
     color: var(--negro-suave);
     font-size: 29.76px;
+}
+
+section {
+    display: flex;
 }
 
 section .principal {
@@ -58,14 +65,29 @@ section .number-principal {
     font-family: "monserrat-regular";
 }
 
-.navvar {
-    color: var(--negro-medio);
-    font-size: 18.76px;
+.logo_1{
+    width: 144.94px;
+    height:52.157px;
 }
 
+.navvar {
+    display: flex;
+    font-size: 18.76px;
+    flex-direction: row;
+}
+
+.navvar li{
+    list-style: none;
+}
+.navvar li a{
+    text-decoration: none;
+    color: var(--negro-medio);
+    text-transform: uppercase;
+    margin: 0 30px;
+}
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: #fff;
-    margin: 0 auto;
+    margin: 0;
 }
