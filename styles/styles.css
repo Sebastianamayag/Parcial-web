@@ -31,31 +31,50 @@ body {
     background-color: var(--fondo);
 }
 
-img {
-    width: 600px;
-    height: 600px;
-    padding-top: 30px;
-}
-
-.center {
-    display: block;
+body div {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+    padding-top: 650px;
+}
 
+.yellow_circle {
+    width: 700px;
+    height: 700px;
+    padding-top: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.person {
+    width: 700px;
+    height: 700px;
+    padding-top: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+img.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 header {
     font-family: "montserrat-medium";
-    text-align: center;
     margin-top: 50px;
     line-height: 17.08px;
+    padding-right: 77px;
 }
 
 header ul li {
     display: inline-block;
     font-size: 21.3px;
-    padding-left: 25px;
+    padding-left: 40px;
 }
 
 footer .text {
