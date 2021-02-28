@@ -63,13 +63,12 @@ img.center {
 
 header {
     font-family: "montserrat-medium";
-    margin-top: 50px;
 }
 
 header ul li {
-    display: inline-block;
     font-size: 21.3px;
     padding-left: 40px;
+    list-style: none;
 }
 
 footer .text {
@@ -98,6 +97,8 @@ section .number-principal {
     color: var(--negro-medio-suave);
     font-size: 190.68px;
     font-family: "monserrat-regular";
+    position: absolute;
+    z-index: 1;
 }
 
 .logo_1{

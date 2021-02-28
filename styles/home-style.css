@@ -38,6 +38,13 @@ header {
     justify-content:space-between;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
 footer .text {
     color: var(--negro-medio-suave);
     font-size: 12px;
@@ -51,19 +58,26 @@ footer .arrow {
 
 section {
     display: flex;
-    height: 100%-header-footer;
+    justify-content: space-between;
 }
 
 section .principal {
     color: var(--negro-medio-suave);
     font-size: 25.6px;
     font-family: "monserrat-bold";
+    position: absolute;
+    z-index: 1;
+    margin: 150px 300px 0 0;
+    font-weight: bold;
 }
 
 section .number-principal {
     color: var(--negro-medio-suave);
     font-size: 190.68px;
     font-family: "monserrat-regular";
+    position: absolute;
+    z-index: 1;
+    margin:0 0 120px 410px;
 }
 
 .logo_1{
@@ -94,13 +108,42 @@ section .number-principal {
 }
 
 .container__img__background{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .img_backgroud{
-    height: 568.8px;
-    width: 319.838px;
+    margin-top: 10px;
+    height: 338.64px;
+    width: 338.64px;
+}
+
+
+.person {
+    width: 280.08px;
+    height: 385.92px;
+    margin:50px 0 0 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.linea{
+    height: 311,678px;
+    width: 38,721px;
+}
+
+.side__bar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.side__bar ul li{
+    list-style: none;
+}
+
+.icon-flecha1 {
+    height: 40px;
+    width: 40px;
 }
