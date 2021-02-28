@@ -31,12 +31,9 @@ body {
     background-color: var(--fondo);
 }
 
-body div {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 650px;
+.icon-menu1 {
+    font-size: 80px;
+    color: #000000;
 }
 
 .yellow_circle {
@@ -67,8 +64,6 @@ img.center {
 header {
     font-family: "montserrat-medium";
     margin-top: 50px;
-    line-height: 17.08px;
-    padding-right: 77px;
 }
 
 header ul li {
