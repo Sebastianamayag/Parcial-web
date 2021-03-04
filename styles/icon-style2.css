@@ -1,0 +1,30 @@
+@font-face {
+    font-family: icomoon-flecha1;
+    src: url('fonts/icomoon1.eot?y84f8u');
+    src: url('fonts/icomoon1.eot?y84f8u#iefix') format('embedded-opentype'), url('fonts/icomoon1.ttf?y84f8u') format('truetype'), url('fonts/icomoon1.woff?y84f8u') format('woff'), url('fonts/icomoon1.svg?y84f8u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-flecha1"],
+[class*=" icon-flecha1"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: icomoon-flecha1;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flecha1:before {
+    content: "\e900";
+    font-size: 29px;
+    
+}
+

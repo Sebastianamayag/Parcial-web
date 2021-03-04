@@ -3,7 +3,7 @@
     --negro-suave: #323132;
     --negro-medio: #2c2c2c;
     --negro-medio-suave: #272727;
-    --fondo: #ffffff;
+    --fondo: #f9f9f9;
 }
 
 @font-face {
@@ -29,10 +29,12 @@
 
 body {
     background-color: var(--fondo);
+
 }
 
 header {
-    font-family: "montserrat-medium";
+    font-family: "Montserrat";
+    font-weight: 500;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -48,7 +50,8 @@ footer{
 footer .text {
     color: var(--negro-medio-suave);
     font-size: 12px;
-    font-family: "monserrat-regular";
+    font-family: "Montserrat";
+    font-weight: 400;
 }
 
 footer .arrow {
@@ -64,7 +67,8 @@ section {
 section .principal {
     color: var(--negro-medio-suave);
     font-size: 25.6px;
-    font-family: "monserrat-bold";
+    font-family: "Montserrat";
+    font-weight: 700;
     position: absolute;
     z-index: 1;
     margin: 150px 300px 0 0;
@@ -74,10 +78,11 @@ section .principal {
 section .number-principal {
     color: var(--negro-medio-suave);
     font-size: 190.68px;
-    font-family: "monserrat-regular";
+    font-family: "Montserrat";
+    font-weight: 400;
     position: absolute;
     z-index: 1;
-    margin:0 0 120px 410px;
+    margin:0 0 120px 380px;
 }
 
 .logo_1{
@@ -129,8 +134,10 @@ section .number-principal {
 }
 
 .linea{
-    height: 311,678px;
-    width: 38,721px;
+    margin: 30px 0 0 18px;
+    height: 274.08px;
+    width: 2px;
+    border-left: #000 1.44px solid;
 }
 
 .side__bar{
@@ -143,7 +150,8 @@ section .number-principal {
     list-style: none;
 }
 
-.icon-flecha1 {
-    height: 40px;
-    width: 40px;
+.side__bar ul li img{
+    height: 29px;
+    width: 29px;
+    margin-bottom: 10px;
 }
