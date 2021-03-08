@@ -24,6 +24,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     margin: 0 20px;
+    background-color: var(--fondo);
 }
 
 footer .text {
@@ -51,7 +52,7 @@ section .principal {
     font-weight: 700;
     position: absolute;
     z-index: 1;
-    margin: 150px 300px 0 0;
+    margin: 150px 420px 0 0;
     font-weight: bold;
 }
 
@@ -62,12 +63,12 @@ section .number-principal {
     font-weight: 400;
     position: absolute;
     z-index: 1;
-    margin:0 0 120px 380px;
+    margin:0 0 200px 460px;
 }
 
 .logo_1{
-    width: 144.94px;
-    height:52.157px;
+    width: 107.2px;
+    height:17.9px;
 }
 
 .navvar {
@@ -100,22 +101,22 @@ section .number-principal {
 
 .img_backgroud{
     margin-top: 10px;
-    height: 338.64px;
-    width: 338.64px;
+    height: 451.52px;
+    width: 451.52px;
 }
 
 
 .person {
-    width: 280.08px;
-    height: 385.92px;
-    margin:50px 0 0 20px;
+    width: 373.44px;
+    height: 514.56px;
+    margin:60px 0 0 20px;
     position: absolute;
     z-index: 1;
 }
 
 .linea{
     margin: 30px 0 0 18px;
-    height: 274.08px;
+    height: 365.44px;
     width: 2px;
     border-left: #000 1.44px solid;
 }
@@ -131,7 +132,7 @@ section .number-principal {
 }
 
 .side__bar ul li img{
-    height: 29px;
-    width: 29px;
+    height: 34.24px;
+    width: 34.24px;
     margin-bottom: 10px;
 }
