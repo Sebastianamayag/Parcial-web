@@ -5,10 +5,11 @@
     --negro-medio-suave: #272727;
     --negro-medio-medio:#222222;
     --fondo: #f9f9f9;
+    --fondo-body:gray
 }
 
 body {
-    background-color: var(--fondo);
+    background-color: var(--fondo-body);
 
 }
 
